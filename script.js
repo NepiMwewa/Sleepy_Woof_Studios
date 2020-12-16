@@ -29,7 +29,7 @@ function init() {
 
   //change the slideshow to the next slide
   nextSlide.onclick = testNextFunction;
-  nextSlide.ontouchstart = testNextFunction;
+  nextSlide.ontouch = testNextFunction;
 
   var testCounter = 0;
   //add delay so that the button won't double tap
@@ -42,7 +42,7 @@ function init() {
     }
   }
   previousSlide.onclick = testPrevFunction;
-  previousSlide.ontouchstart = testPrevFunction;
+  previousSlide.ontouch = testPrevFunction;
 
   //add delay so that the button won't double tap
   function testPrevFunction(){
