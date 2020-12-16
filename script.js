@@ -28,10 +28,30 @@ function init() {
 
 
   //change the slideshow to the next slide
-  nextSlide.onclick = nextSlideFunction;
-  nextSlide.ontouch = nextSlideFunction;
-  previousSlide.onclick = previousSlideFuntion;
-  previousSlide.ontouch = previousSlideFuntion;
+  nextSlide.onclick = testNextFunction;
+  nextSlide.ontouch = testNextFunction;
+
+  var testCounter = 0;
+
+  function testNextFunction(){
+    if(testCounter <= 0)
+    {
+      ++testCounter;
+      nextSlideFunction();
+      setTimeout(function(){testCounter = 0;}, 200);
+    }
+  }
+  previousSlide.onclick = testPrevFunction;
+  previousSlide.ontouch = testPrevFunction;
+
+  function testPrevFunction(){
+    if(testCounter <= 0)
+    {
+      ++testCounter;
+      previousSlideFuntion();
+      setTimeout(function(){testCounter = 0;}, 200);
+    }
+  }
 
   function nextSlideFunction(){
     var windowSize = window.innerWidth;
