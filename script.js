@@ -29,27 +29,28 @@ function init() {
 
   //change the slideshow to the next slide
   nextSlide.onclick = testNextFunction;
-  nextSlide.ontouch = testNextFunction;
+  nextSlide.ontouchstart = testNextFunction;
 
   var testCounter = 0;
-
+  //add delay so that the button won't double tap
   function testNextFunction(){
     if(testCounter <= 0)
     {
       ++testCounter;
       nextSlideFunction();
-      setTimeout(function(){testCounter = 0;}, 200);
+      setTimeout(function(){testCounter = 0;}, 150);
     }
   }
   previousSlide.onclick = testPrevFunction;
-  previousSlide.ontouch = testPrevFunction;
+  previousSlide.ontouchstart = testPrevFunction;
 
+  //add delay so that the button won't double tap
   function testPrevFunction(){
     if(testCounter <= 0)
     {
       ++testCounter;
       previousSlideFuntion();
-      setTimeout(function(){testCounter = 0;}, 200);
+      setTimeout(function(){testCounter = 0;}, 150);
     }
   }
 
