@@ -13,13 +13,13 @@ function init() {
   var mobileImages = ["images/mobile_showcase_1.png",
     "images/mobile_showcase_2.png",
     "images/mobile_showcase_3.png",
-    "images/mobile_showcase_4.png";
+    "images/mobile_showcase_4.png"];
 
     //putting the desktop images in an array for the showcase
   var desktopImages = ["images/showcase_1.png",
     "images/showcase_2.png",
     "images/showcase_3.png",
-    "images/showcase_4.png";
+    "images/showcase_4.png"];
     //for the
   var showcasePosition = 0;
 
@@ -28,7 +28,12 @@ function init() {
 
 
   //change the slideshow to the next slide
-  nextSlide.onclick = function(){
+  nextSlide.onclick = nextSlideFunction;
+  nextSlide.ontouchstart = nextSlideFunction;
+  previousSlide.onclick = previousSlideFuntion;
+  previousSlide.ontouchstart = previousSlideFuntion;
+
+  function nextSlideFunction(){
     var windowSize = window.innerWidth;
 
     if(windowSize < 768){ // if mobile
@@ -66,7 +71,7 @@ function init() {
   }
 
   //change the slideshow to the previous slide
-  previousSlide.onclick = function(){
+  function previousSlideFuntion(){
     var windowSize = window.innerWidth;
     if(windowSize < 768){ // if mobile
 
