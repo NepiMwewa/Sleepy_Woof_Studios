@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+	<title>Sleepy Woof Studios: Home</title>
+	<meta name="description" content="Sleepy Woof Studios">
+	<link href="style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="tablet_and_mobile_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="desktop_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="menu_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+	<header>
+
+    <nav>
+      <ul>
+        <li id="logo_fig">
+          <figure>
+            <img src="images/small_logo.png" alt="Sleepy Woof Studios Logo" id="mobile_logo">
+            <figcaption>Sleepy Woof Studios Logo</figcaption>
+          </figure>
+        </li>
+
+        <li id="current_page">
+          <h2>Home</h2>
+        </li>
+        <li>
+          <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+              <div></div>
+            </div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+  	</nav>
+    <div class="fade_down"></div>
+	</header>
+
+  <article>
+    <form id="showcase_form">
+      <fieldset>
+        <legend>Most Popular</legend>
+
+        <div id="showcase">
+          <figure>
+            <img id="showcase_picture" src="images/mobile_showcase_1.png" alt="game showcase">
+            <figcaption>Game showcase</figcaption>
+          </figure>
+        </div>
+
+        <div id="showcase_buttons">
+          <input id="previous_button" type="button" value="Prev"/>
+    			<input id="next_button" type="button" value="Next"/>
+        </div>
+
+      </fieldset>
+    </form>
+  </article>
+  <hr>
+  <section id="games_section">
+    <h1>Games</h1>
+
+    <div id="game_container">
+      <article class="game_card"> <!-- First game, Belldor -->
+        <div class="game_card_image">
+          <figure>
+            <img src="images/game_1.png" alt="belldor logo">
+            <figcaption>Belldor logo</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="game_card_title">Belldor</h3>
+        <h4 class="game_card_tag">-Tags-</h4>
+        <p class="game_card_tag_text">Single Player<br>
+        Coop<br>
+        Survival</p>
+
+        <p class="game_card_desc">Survive  the Wilderness of Belldor in this
+          action packed game consisting of unique crafting system of sticks and
+          stones. Build a fort or a cabin to chill in and invite your friends
+          over!</p>
+
+        <div class="container">
+          <p class="game_price">$4.99</p>
+          <a class="buy_now_button" href="index.html" >Buy Now</a>
+        </div>
+      </article>
+
+      <article class="game_card"> <!-- Second game, Depth -->
+        <div class="game_card_image">
+          <figure>
+            <img src="images/game_2.png" alt="depth logo">
+            <figcaption>Depth logo</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="game_card_title">Depth</h3>
+        <h4 class="game_card_tag">-Tags-</h4>
+        <p class="game_card_tag_text">Single Player<br>
+        Diving<br>
+        Adventure</p>
+
+        <p class="game_card_desc">Dive with dolphins in this interesting take on
+          2D side scroller genre. Search for sunken ships and avoid sharks while
+          you seek out treasure. Or simply relax while you watch fish swim in
+          coral reefs.</p>
+
+        <div class="container">
+          <p class="game_price">$3.99</p>
+          <a href="index.html" class="buy_now_button">Buy Now</a>
+        </div>
+      </article>
+
+      <article class="game_card"> <!-- Third game, Hero -->
+        <div class="game_card_image">
+          <figure>
+            <img src="images/game_3.png" alt="hero logo">
+            <figcaption>Hero logo</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="game_card_title">Hero</h3>
+        <h4 class="game_card_tag">-Tags-</h4>
+        <p class="game_card_tag_text">Single Player<br>
+        RPG<br>
+        Adventure</p>
+
+        <p class="game_card_desc">Play as Zurdok a Captain of the guards in the
+          kingdom of Nethaland. In which he must brave dungeons and scale cliffs
+          to rescue the favorite King from the clutches of Evil Tulbum.</p>
+
+        <div class="container">
+          <p class="game_price">$7.99</p>
+          <a href="index.html" class="buy_now_button">Buy Now</a>
+        </div>
+      </article>
+
+      <article class="game_card"> <!-- Forth game, Hero II -->
+        <div class="game_card_image">
+          <figure>
+            <img src="images/game_4.png" alt="hero II logo">
+            <figcaption>Hero II logo</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="game_card_title">Hero II</h3>
+        <h4 class="game_card_tag">-Tags-</h4>
+        <p class="game_card_tag_text">Single Player<br>
+        RPG<br>
+        Adventure</p>
+
+        <p class="game_card_desc">Zurdok the Captain of the guards returns as the
+          king was once again taken by Evil Tulbum! This time he has an army of
+          angry red slimes that have taken over the countryside</p>
+
+        <div class="container">
+          <p class="game_price">$14.99</p>
+          <a href="index.html" class="buy_now_button">Buy Now</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="fade_up"></div>
+    <ul>
+		    <li>Alexander Harmon</li>
+		    <li>Sleepy Woof Studios</li>
+		    <li>(619) 123-4567</li>
+    </ul>
+  </footer>
+</body>

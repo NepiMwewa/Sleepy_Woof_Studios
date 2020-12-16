@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+	<title>Sleepy Woof Studios: Contact</title>
+	<meta name="description" content="Sleepy Woof Studios">
+	<link href="style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="tablet_and_mobile_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="desktop_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="menu_style.css" type="text/css" rel="stylesheet" media="screen"/>
+  <script>//</script>
+</head>
+
+<body>
+
+	<header>
+
+    <nav>
+      <ul>
+        <li id="logo_fig">
+          <figure>
+            <img src="images/small_logo.png" alt="Sleepy Woof Studios Logo" id="mobile_logo">
+            <figcaption>Sleepy Woof Studios Logo</figcaption>
+          </figure>
+        </li>
+
+        <li id="current_page">
+          <h2>Contact</h2>
+        </li>
+        <li>
+          <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+              <div></div>
+            </div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+  	</nav>
+    <div class="fade_down"></div>
+	</header>
+
+  <section id="contact_section">
+    <h1>Contact Us</h1>
+
+    <div id="contact_container">
+      <article class="contact_card"> <!-- First game, Belldor -->
+        <h2>Call Us</h2>
+        <p>
+          Office Phone:<br>
+          (619) 123-4567
+        </p>
+      </article>
+
+      <article class="contact_card"> <!-- Second game, Depth -->
+        <h2>Visit Us</h2>
+        <p>
+          Address:<br>
+          1492 N Harbor Dr<br>
+          San Diego<br>
+          CA<br>
+          92101
+        </p>
+        <p>
+          Visiting Hours:<br>
+          Monday - Thursday<br>
+          10am - 5pm<br>
+          Saturday and Sunday<br>
+          10am - 6pm
+        </p>
+      </article>
+
+      <article class="contact_card"> <!-- Third game, Hero -->
+        <h2>Email Us</h2>
+        <p>
+          Email:<br>
+          Admin@SleepyWoofStudios.com
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <article>
+    <form id="bug_report_form">
+      <fieldset id="bug_report_main_fieldset">
+        <legend>Bug Report</legend>
+
+        <fieldset class="bug_report_sub_fieldsets">
+          <label>Game</label>
+          <select name="question1">
+                <option value="belldor">Belldor</option>
+                <option value="depth">Depth</option>
+                <option value="hero">Hero I</option>
+                <option value="hero22">Hero II</option>
+          </select>
+        </fieldset>
+
+        <fieldset class="bug_report_sub_fieldsets">
+          <label>Bug Type</label>
+          <select name="question2">
+                <option value="graphical">Graphical</option>
+                <option value="gameplay">Gameplay</option>
+                <option value="glitch">Glitch</option>
+                <option value="online">Online</option>
+          </select>
+        </fieldset>
+
+        <fieldset class="bug_report_sub_fieldsets">
+          <label for="bugDescript" id="bug_descript"></label>
+          <textarea rows="8" cols="70" id="bugDescript">Enter bug description...</textarea>
+        </fieldset>
+
+        <input id="clear" type="reset" value="Clear">
+        <input id="submit" type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </article>
+
+  <footer>
+    <div class="fade_up"></div>
+    <ul>
+		    <li>Alexander Harmon</li>
+		    <li>Sleepy Woof Studios</li>
+		    <li>(619) 123-4567</li>
+    </ul>
+  </footer>
+</body>

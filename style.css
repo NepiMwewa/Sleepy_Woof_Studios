@@ -1,0 +1,665 @@
+/*Start of General styles*/
+  *{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+  }
+  body{
+    font-family: arial, sans-serif;
+    color: #e3e2d8;
+    background-color: #0b3840;
+  }
+  /*Start of Navagation styles*/
+  nav{
+    background-color: #222323;
+  }
+
+  nav > ul{
+    list-style: none;
+  }
+
+  nav figcaption{
+    display: none;
+  }
+
+  nav #logo_fig{
+    padding: .5rem;
+  }
+
+  nav #current_page{
+
+  }
+
+  nav #current_page > h2{
+    font-size: 4.5rem;
+    font-family: monospace;
+
+    text-align: center;
+
+    position: relative;
+    bottom: 3rem;
+
+
+    text-shadow: 2px 2px 2px #396073;
+  }
+
+  .fade_down{
+
+  width: 100%;
+  height: 6rem;
+  background: #0b3840;
+  background: -moz-linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  }
+
+  /*End of Navagation styles*/
+  /*Start of Footer styles*/
+  .fade_up{
+
+  width: 100%;
+  height: 6rem;
+  background: #222323;
+  background: -moz-linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  background: linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+  }
+
+  figcaption{
+    display: none;
+  }
+
+  hr{
+    margin: 10rem auto;
+    width: 75%;
+    border-width: 4px;
+    border-style: solid;
+  }
+
+  footer{
+    text-align: center;
+    width: 100%;
+    background-color: #222323;
+  }
+  footer>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  footer li{
+
+    font-size: 2.5rem;
+    border-left: #e3e2d8 solid 2px;
+    border-right: #e3e2d8 solid 2px;
+    text-align: center;
+    color: #e3e2d8;
+    margin: 40px 2px 40px 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*End of Footer styles*/
+/*End of General styles*/
+
+
+
+/*Start of Home page stles*/
+  /*Start of Most Popular styles*/
+
+  #showcase_form{
+  width: 85%;
+  margin: auto;
+
+  }
+
+  #showcase_form fieldset{
+    text-align: center;
+    border-style: solid;
+
+    border-width: 0px;
+    background-color: #0b3840;
+  }
+  #showcase_form legend{
+      font-size: 4rem;
+      font-family: monospace;
+
+      background-color: #222323;
+      border-radius: 30px 30px 0px 0px;
+      padding: .5rem 3rem;
+
+      text-shadow: 2px 2px 2px #396073;
+  }
+
+  #showcase{
+    border-style: solid;
+    border-width: 5px;
+    border-bottom-width: 0px;
+    border-color: #222323;
+    -webkit-box-shadow: 2px 2px 12px 2px #222323;
+    box-shadow: 2px 2px 12px 2px #222323;
+  }
+
+  #showcase_picture{
+    display: block;
+    width: 100%;
+  }
+
+  #showcase_form figcaption{
+    display: none;
+  }
+
+  #showcase_buttons{
+    background-color: #396073;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #222323;
+
+    display: flex;
+    justify-content: space-between;
+
+    -webkit-box-shadow: 2px 2px 12px 2px #222323;
+    box-shadow: 2px 2px 12px 2px #222323;
+  }
+
+  #previous_button,
+  #next_button{
+    font-size: 2.5rem;
+    font-family: monospace;
+
+    padding: 0.8rem 2rem;
+    color: #e3e2d8;
+    background-color: #222323;
+
+    text-shadow: 1px 1px 2px #396073;
+
+    border-color: #e3e2d8;
+  }
+  #previous_button:hover,
+  #next_button:hover{
+    color: #e3e2d8;
+    background-color: #323636;
+
+  }
+  #previous_button:active,
+  #next_button:active{
+    color: #222323;
+    background-color: #e3e2d8;
+
+    text-shadow: 1px 1px 2px #222323;
+    box-shadow:inset 2px 2px 2px #222323;
+  }
+  /*End of Most Popular styles*/
+
+  /*Start of Game Card styles*/
+  #games_section h1{
+    display: block;
+    text-align: center;
+    width: 20rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 4rem;
+
+    font-size: 3rem;
+    font-family: Elephant, sans-serif;
+
+    background-color: #222323;
+    border-radius: 30px;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+
+    text-shadow: 2px 2px 2px #396073;
+  }
+
+  .game_card{
+  	border-style: solid;
+    border-width: 5px;
+
+    border-color: #222323;
+    background-color: #396073;
+
+    -webkit-box-shadow: 2px 2px 12px 2px #222323;
+    box-shadow: 2px 2px 12px 2px #222323;
+
+    width: 85%;
+    margin: 4rem auto;
+  }
+
+  .game_card_image{
+    border-style: solid;
+    border-width: 0px 5px 5px 0px;
+    border-color: #222323;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+
+    float: left;
+  }
+  .game_card_image img{
+    display: block;
+  }
+  .game_card_title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0.3rem 0px 0.3rem 0px;
+
+    text-shadow: 2px 2px 2px #222323;
+  }
+  .game_card_tag{
+    text-align: center;
+    font-size: 2rem;
+
+    text-shadow: 1px 1px 2px #222323;
+  }
+  .game_card_tag_text{
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  .game_card_desc{
+    clear: both;
+    font-size: 1.5rem;
+    margin: 1.2rem .5rem .5rem .5rem;
+  }
+  .game_price{
+
+
+    margin: 0.3rem;
+    padding: 0.3rem;
+
+    font-size: 1.75rem;
+  }
+  .buy_now_button{
+
+
+    margin: 0.5rem;
+    padding: 0.75rem;
+
+    font-size: 2rem;
+
+    color: #e3e2d8;
+    background-color: #222323;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #e3e2d8;
+
+
+    text-decoration: none;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+  .buy_now_button:visited{
+    text-decoration: none;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  /*End of Game Card styles*/
+/*End of Home page stles*/
+
+
+
+/*Start of Contact page stles*/
+  /*Start of contact cards*/
+
+  #contact_section h1{
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    font-family: monospace;
+
+    width: 28rem;
+    max-width: 95%;
+    padding: 1rem;
+    margin: 1rem auto;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+
+  .contact_card{
+    width: 90%;
+    margin: 4rem auto;
+
+    text-align: center;
+
+  	border-style: solid;
+    border-width: 5px;
+
+    border-color: #222323;
+    background-color: #396073;
+
+    -webkit-box-shadow: 2px 2px 12px 2px #222323;
+    box-shadow: 2px 2px 12px 2px #222323;
+  }
+
+  .contact_card h2{
+    display: block;
+    font-size: 4rem;
+    font-family: monospace;
+
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem auto;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+
+  .contact_card p{
+    font-size: 1.5rem;
+    margin: 3rem 1rem;
+    line-height: 3rem;
+  }
+  /*End of contact cards
+
+  /*Start of Form*/
+  #bug_report_form form{
+  margin: 0px 1rem;
+  }
+
+  #bug_report_main_fieldset{
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #222323;
+    background-color: #396073;
+  }
+
+  #bug_report_form legend{
+      font-size: 4rem;
+      font-family: monospace;
+      text-align: center;
+      background-color: #222323;
+      border-radius: 30px;
+      padding: .5rem 3rem;
+      margin: 1rem;
+
+      text-shadow: 2px 2px 2px #396073;
+
+      -webkit-box-shadow: 2px 2px 8px 1px #222323;
+      box-shadow: 2px 2px 8px 1px #222323;
+  }
+
+  #bug_report_form label{
+    margin: 1rem;
+    padding: .5rem 2rem;
+    font-size: 2rem;
+
+    background-color: #222323;
+    border-radius: 30px;
+  }
+
+  .bug_report_sub_fieldsets{
+    border: none;
+
+
+  }
+
+  #bug_report_form select{
+
+    margin: 2rem;
+    padding: .75rem 1rem;
+    font-size: 1.8rem;
+
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #222323;
+
+    color: #e3e2d8;
+    background-color: #0b3840;
+  }
+
+  #bug_descript{
+    display: none;
+  }
+
+  #bug_report_form textarea{
+    display: block;
+    margin: auto;
+    width: 95%;
+
+    padding: .3rem;
+    font-size: 1.8rem;
+
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: #222323;
+
+    color: #e3e2d8;
+    background-color: #0b3840;
+  }
+
+  #bug_report_form input{
+    font-size: 2rem;
+    padding: .8rem 1.5rem;
+    margin: .5rem 1rem;
+
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #e3e2d8;
+
+    color: #e3e2d8;
+    background-color: #222323;
+  }
+  #clear{
+    float: left;
+  }
+  #submit{
+    float: right;
+  }
+  /*End of Form*/
+/*End of Contact page stles*/
+
+/*Start of About page stles*/
+  /*Start of Logo*/
+  #logo_section figure{
+
+  }
+
+  #logo_section img{
+    display: block;
+    margin: auto;
+  }
+
+  #logo_section h1{
+    display: block;
+    font-size: 5rem;
+    font-family: monospace;
+
+    width: 50rem;
+    max-width: 95%;
+    padding: 1rem;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+  /*End of Logo*/
+
+  /*Start of About us card*/
+  #about_article{
+    margin: 5rem auto 5rem auto;
+  }
+  #about_article h2{
+    display: block;
+    font-size: 5rem;
+    font-family: monospace;
+
+    width: 30rem;
+    max-width: 95%;
+    padding: 1rem;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+
+  #About_card{
+    width: 90%;
+
+    margin: 3rem auto;
+
+    border-style: solid;
+    border-width: 5px;
+
+    border-color: #222323;
+    background-color: #396073;
+
+    -webkit-box-shadow: 4px 4px 25px 2px #222323;
+    box-shadow: 4px 4px 25px 2px #222323;
+  }
+
+  #About_card figure{
+  float: left;
+  width: 50%;
+  margin: 0px 1.5rem .5rem 0px;
+  }
+  #About_card img{
+    width: 100%;
+
+    border-width: 5px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #222323;
+    -webkit-box-shadow: 2px 2px 20px 1px #222323;
+    box-shadow: 2px 2px 20px 1px #222323;
+
+  }
+
+  #About_card h3{
+    font-size: 5rem;
+    font-family: serif;
+    padding: 1rem;
+    margin: 1rem auto;
+
+
+    text-shadow: 4px 4px 20px #222323;
+  }
+
+  #About_card p{
+    text-align: left;
+    font-size: 2rem;
+    margin: 2rem .5rem;
+  }
+  /*End of About us card*/
+
+  /*Start of team cards*/
+  #team_article{
+    margin: 10rem auto 2rem auto;
+  }
+
+  #team_article h2{
+    display: block;
+    font-size: 5rem;
+    font-family: monospace;
+
+    width: 30rem;
+    padding: 1rem;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 30px;
+
+    border-color: #222323;
+    background-color: #222323;
+    text-shadow: 2px 2px 2px #396073;
+
+    -webkit-box-shadow: 2px 2px 8px 1px #222323;
+    box-shadow: 2px 2px 8px 1px #222323;
+  }
+
+  #team_card_container{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .team_card{
+    width: 90%;
+
+    margin: 4rem auto;
+
+    text-align: center;
+
+    border-style: solid;
+    border-width: 5px;
+
+    border-color: #222323;
+    background-color: #396073;
+
+    -webkit-box-shadow: 4px 4px 25px 2px #222323;
+    box-shadow: 4px 4px 25px 2px #222323;
+  }
+
+  .team_card img{
+    width: 75%;
+    border-width: 5px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #222323;
+    -webkit-box-shadow: 2px 2px 20px 1px #222323;
+    box-shadow: 2px 2px 20px 1px #222323;
+
+  }
+
+  .team_card h3{
+    font-size: 5rem;
+    font-family: serif;
+    padding: 1rem;
+    margin: 1rem auto;
+
+
+    text-shadow: 4px 4px 20px #222323;
+  }
+
+  .team_card p{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem .5rem;
+    line-height: 4rem;
+  }
+  /*End of team cards*/
+/*End of About page stles*/
