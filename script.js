@@ -10,16 +10,16 @@ function init() {
   var windowSize = window.innerWidth;
 
     //putting the mobile images in an array for the showcase
-  var mobileImages = ["images/mobile_showcase_1.png",
-    "images/mobile_showcase_2.png",
-    "images/mobile_showcase_3.png",
-    "images/mobile_showcase_4.png"];
+  var mobileImages = ["https://nepimwewa.github.io/Sleepy_Woof_studios/images/mobile_showcase_1.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/mobile_showcase_2.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/mobile_showcase_3.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/mobile_showcase_4.png"];
 
     //putting the desktop images in an array for the showcase
-  var desktopImages = ["images/showcase_1.png",
-    "images/showcase_2.png",
-    "images/showcase_3.png",
-    "images/showcase_4.png"];
+  var desktopImages = ["https://nepimwewa.github.io/Sleepy_Woof_studios/images/showcase_1.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/showcase_2.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/showcase_3.png",
+    "https://nepimwewa.github.io/Sleepy_Woof_studios/images/showcase_4.png"];
     //for the
   var showcasePosition = 0;
 
