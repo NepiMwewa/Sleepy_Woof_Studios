@@ -29,9 +29,9 @@ function init() {
 
   //change the slideshow to the next slide
   nextSlide.onclick = nextSlideFunction;
-  nextSlide.ontouchstart = nextSlideFunction;
+  nextSlide.ontouch = nextSlideFunction;
   previousSlide.onclick = previousSlideFuntion;
-  previousSlide.ontouchstart = previousSlideFuntion;
+  previousSlide.ontouch = previousSlideFuntion;
 
   function nextSlideFunction(){
     var windowSize = window.innerWidth;
