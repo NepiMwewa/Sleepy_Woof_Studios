@@ -13,13 +13,13 @@ function init() {
   var mobileImages = ["images/mobile_showcase_1.png",
     "images/mobile_showcase_2.png",
     "images/mobile_showcase_3.png",
-    "images/mobile_showcase_4.png"];
+    "images/mobile_showcase_4.png";
 
     //putting the desktop images in an array for the showcase
-  var desktopImages = ["images/showcase_1.PNG",
+  var desktopImages = ["images/showcase_1.png",
     "images/showcase_2.png",
-    "images/showcase_3.PNG",
-    "images/showcase_4.PNG"];
+    "images/showcase_3.png",
+    "images/showcase_4.png";
     //for the
   var showcasePosition = 0;
 
